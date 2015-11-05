@@ -1,8 +1,18 @@
+project/project/
+results/
+eclipse-bin/
+/data/
+/bin
+
 *.class
 *.log
 
 # sbt specific
 .cache
+.classpath
+.project
+.settings
+.worksheet
 .history
 .lib/
 dist/*
@@ -15,3 +25,8 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+.cache-main
+.cache-tests
+
+.DS_Store
+
