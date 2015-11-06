@@ -16,6 +16,8 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.apache.opennlp" % "opennlp-tools" % "1.5.2-incubating",
+  "org.scalanlp" % "breeze_2.11" % "0.11.2",
+  "org.scalanlp" % "breeze-natives_2.11" % "0.11.2",
 
   "org.apache.commons" % "commons-math3" % "3.4",
   "org.scalaz" %% "scalaz-core" % "7.0.6", // "7.1.0"
@@ -27,6 +29,15 @@ libraryDependencies ++= Seq(
 
   "junit" % "junit" % "4.11" % "test",
   "com.novocode" % "junit-interface" % "0.10" % "test") //switch to ScalaTest at some point...
+
+// Junto dependencies:
+libraryDependencies ++= Seq(
+  "org.jgrapht" % "jgrapht-jdk1.5" % "0.7.3",
+  "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
+  "com.typesafe.akka" % "akka-actor_2.11" % "2.3.6",
+  "org.rogach" %% "scallop" % "0.9.5",
+  "net.sf.trove4j" % "trove4j" % "3.0.3",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0")
 
 seq(SbtStartScript.startScriptForClassesSettings: _*)
 
