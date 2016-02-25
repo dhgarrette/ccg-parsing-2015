@@ -7,11 +7,11 @@
 
 This is the software used for the following publication:
 
-> [Weakly-Supervised Grammar-Informed Bayesian CCG Parser Learning](http://www.cs.utexas.edu/users/ml/papers/garrette.aaai15.pdf)    
+> [Weakly-Supervised Grammar-Informed Bayesian CCG Parser Learning](http://www.aclweb.org/anthology/C08-1008.pdf)    
 > [Dan Garrette], [Chris Dyer], [Jason Baldridge], and [Noah A. Smith]  
 > In Proceedings of AAAI 2015  
 
-> [A Supertag-Context Model for Weakly-Supervised CCG Parser Learning](http://www.cs.utexas.edu/users/ml/papers/garrette.conll15.pdf)    
+> [A Supertag-Context Model for Weakly-Supervised CCG Parser Learning](https://aclweb.org/anthology/K/K15/K15-1003.pdf)    
 > [Dan Garrette], [Chris Dyer], [Jason Baldridge], and [Noah A. Smith]  
 > In Proceedings of CoNLL 2015  
 
